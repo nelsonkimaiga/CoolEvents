@@ -45,7 +45,15 @@
             android:layout_marginTop="20dp">
         </TextView>
 
-
+<!--time picker-->
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pick Time"
+    android:onClick="showTimePickerDialog"
+    android:layout_marginTop="10dp"
+    >
+</Button>
     </LinearLayout>
 
 </RelativeLayout>
