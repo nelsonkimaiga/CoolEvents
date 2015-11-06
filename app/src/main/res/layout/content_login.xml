@@ -9,7 +9,14 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_login" tools:context=".Login">
 
-
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/linearlayout_bg"
+        android:padding="10dp"
+        >
 
     <TextView
         android:id="@+id/username"
@@ -18,5 +25,5 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:textSize="16sp" />
-
+</LinearLayout>
 </RelativeLayout>
