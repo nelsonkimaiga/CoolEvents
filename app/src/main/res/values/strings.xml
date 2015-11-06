@@ -17,4 +17,6 @@
     </style>
     <string name="title_activity_first_login">FirstLogin</string>
     <string name="title_activity_second_login">SecondLogin</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_events">Events</string>
 </resources>
