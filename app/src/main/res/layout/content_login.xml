@@ -14,16 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@drawable/linearlayout_bg"
+
         android:padding="10dp"
         >
 
-    <TextView
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="16sp" />
-</LinearLayout>
+        <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:text="Sign In with Facebook"
+            style="@style/DefaultButtonText"
+            />
+    </LinearLayout>
+
 </RelativeLayout>
