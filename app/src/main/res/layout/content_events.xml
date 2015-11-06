@@ -28,14 +28,21 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="118dp">
+        android:layout_marginTop="10dp">
 
         <TextView
-            android:id="@+id/TextViewTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="10pt"
-            android:text="Helllo">
+            android:text="Event Name">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:text="Location"
+            android:layout_marginTop="20dp">
         </TextView>
 
 
