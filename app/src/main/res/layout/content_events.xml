@@ -55,14 +55,7 @@
         >
     </Button>
         <!-- Time picker-->
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Pick Start Time"
-    android:onClick="showTimePickerDialog"
-    android:layout_marginTop="10dp"
-    >
-</Button>
+>
 <!--End times -->
         <Button
             android:layout_width="wrap_content"
@@ -72,14 +65,19 @@
             android:layout_marginTop="10dp"
             >
         </Button>
-        <!-- Time picker-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal" />
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pick end Time"
-            android:onClick="showTimePickerDialog"
-            android:layout_marginTop="10dp"
-            >
+           android:layout_height="120dp"
+           android:layout_width="match_parent"
+            android:text="Create Event">
         </Button>
 
     </LinearLayout>
