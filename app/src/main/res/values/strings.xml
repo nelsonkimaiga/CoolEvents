@@ -16,4 +16,5 @@
         <item name="android:shadowRadius">1</item>
     </style>
     <string name="title_activity_first_login">FirstLogin</string>
+    <string name="title_activity_second_login">SecondLogin</string>
 </resources>
